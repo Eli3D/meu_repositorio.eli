@@ -1,0 +1,69 @@
+* { margin: 0; padding: 0;
+}
+
+@font-face {
+   font-family: JAMIROQUAI_pl;
+   src: local("JAMIROQUAI_pl"), url("../JAMIROQUAI_pl.ttf");
+}
+ 
+
+
+body {
+   background: #c4c4c4; padding: 0%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cima{
+   background-color: #c4c4c4;
+   top: 0%;
+   width: 100%;
+   height: 90px;
+}
+
+.meio{
+   background-color: #9c9c9c;
+   top: 0%;
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   z-index: -1;
+}
+
+.sofatec{
+   font-size: 30px;
+   color: rgb(60, 60, 60);
+   position: absolute;
+   left: 1%;
+   top: 2%;
+   font-family: "JAMIROQUAI_pl";
+}
+
+.fatec_mapa{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   padding-top: 45%;
+   left: 25%;
+   padding-bottom: 2%;
+
+}
+
+.desfatec h1{
+    font-size: 15px;
+    color: rgb(58, 57, 57);
+}
+
+.desfatec {
+   overflow-y: scroll;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    border: solid red;
+    width: 80%;
+    height: 70%;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

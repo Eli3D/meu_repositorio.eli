@@ -1,0 +1,180 @@
+ * { margin: 0; padding: 0;
+    overflow-x: hidden;
+  
+ }
+
+ @font-face {
+    font-family: JAMIROQUAI_pl;
+    src: local("JAMIROQUAI_pl"), url("../JAMIROQUAI_pl.ttf");
+ }
+  
+
+
+body {
+    background: #222; padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+h2 {
+    color: rgb(238, 238, 238);
+    position: relative;
+    display: flex;
+    left: 5%;
+    top: 10%;
+    
+}
+
+
+.nglogo{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 120px;
+    border: solid purple 5px;
+}
+
+.insta{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 260px;
+    border: solid purple 5px;
+}
+
+.git{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 400px;
+    border: solid purple 5px;
+}
+
+.link{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 540px;
+    border: solid purple 5px;
+}
+
+
+.nome{
+    font-size: 30px;
+    color: rgb(221, 221, 221);
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    font-family: "JAMIROQUAI_pl";
+    z-index: 3;
+}
+
+.cima{
+    background-color: #222;
+    z-index: 3;
+    top: 0%;
+    width: 100%;
+    height: 90px;
+}
+
+.meio{
+    background-color: #333;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+.descriçao{
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    z-index: 3;
+    background-color: #444;
+    -webkit-box-shadow: inset 0px 0px 7px 7px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0px 0px 7px 7px rgb(0, 0, 0.4);
+    box-shadow: inset 0px 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.descriçao h2{
+    top: 30px;
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+.circulo img{
+    border-radius: 50%;
+    border: solid purple 5px;
+    z-index: 5;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    display: flex;
+    left: 5%;
+    top: 100px;
+    
+}
+
+.jamiroquai{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    top: 630px;
+    left: 60px;
+}
+
+.bemvindo{
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    left: 35%;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(7, 7, 7);
+}
+
+.fatec a{
+    text-decoration: none;
+}
+
+.fatec {
+    border-radius: 5px;
+    border: solid rgb(221, 4, 221) 3px;
+    width: 85px;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    left: 70%;
+    top: -70px;
+    z-index: 5;
+   
+}
+
+.fatec h1{
+    top: 4px;
+    color: rgb(71, 71, 71);
+    display: flex;
+    position: relative;
+}
+
